@@ -5,8 +5,8 @@ export const InfoContainer = styled.div`
   background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#000000')};
   padding: 0 0 100px;
 
-  @media screen and (max-width: 768px) {
-    padding: 0 0;
+  @media screen and (max-width: 1200px) {
+    padding: 0 36px;
   }
 `;
 
@@ -14,7 +14,7 @@ export const InfoWrapper = styled.div`
   display: grid;
   z-index: ;
   width: 100%;
-  max-width: 1100px;
+  max-width: 1070px;
   margin-right: auto;
   margin-left: auto;
   padding: 0 0px;
@@ -40,27 +40,29 @@ export const InfoRow = styled.div`
 `;
 
 export const Column1 = styled.div`
-  margin-bottom: 15px;
-  padding: 0 55px;
+  margin: 0 0 15px 0;
+  padding: 0 60px 0 0;
   grid-area: col1;
-  margin-left: 15px;
+  
+  @media screen and (max-width: 768px) {
+    margin: 0 0 0 0;
+    padding: 0;
+  }  
 `;
 
 export const Column2 = styled.div`
   margin-bottom: 15px;
-  padding: 0 15px;
+  padding: 0;
   grid-area: col2;
-  margin-left: 15px;
-  
-  @media screen and (max-width: 768px) {
-    margin-left: 0px;
-  }  
 `;
 
 export const TextWrapper = styled.div`
   max-width: 540px;
   padding-top: 0;
-  padding-bottom: 60px;
+  
+  @media screen and (max-width: 768px) {
+    max-width: 100%;
+  }  
 `;
 
 export const TopLine = styled.div`
@@ -75,19 +77,19 @@ export const TopLine = styled.div`
 
 export const Heading = styled.h1`
   margin-bottom: 24px;
-  font-size: 2rem;
+  font-size: 2.5rem;
   line-height: 1.1;
   font-weight: 600;
   color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#000000')};
+  hyphens: auto;
   
-
   @media screen and (max-width: 480px) {
-    font-size: 32px;
+    font-size: 1.75rem;
   }
 `;
 
 export const Body = styled.p`
-  max-width: 440px;
+  width: 100%;
   margin-bottom: 35px;
   font-size: 1rem;
   line-height: 2rem;
@@ -96,14 +98,14 @@ export const Body = styled.p`
   white-space: pre-wrap;
 `;
 
-export const BtnWrap = styled.div`
-  display: flex;
-  justify-content: flex-start;
-`;
 
 export const ImgWrap = styled.div`
-  max-width: 955px;
-  height: 100%;
+    max-width: 955px;
+    height: 100%;
+    
+    @media screen and (max-width: 768px) {
+        padding: 0 0;
+    } 
 `;
 
 export const Img = styled.img`
