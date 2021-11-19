@@ -5,10 +5,10 @@ import {
   HeroBg,
   VideoBg,
   HeroContent,
-  HeroH1,
+    TopLine,
 } from './HeroElements';
 import ship from './SPACE-SHIP-MAIN-web.png'; // with import
-import map from './vertical-roadmap.png'; // with import
+import map from './vertical-roadmap.png';
 
 function HeroSection() {
   const [hover, setHover] = useState(false);
@@ -23,13 +23,7 @@ function HeroSection() {
       </HeroBg>
       <HeroContent>
       <img src={ship} width="100%" class="img-responsive"/>
-        <br></br>
-        <br></br>
-        <br></br>
-        <HeroH1>Where we're going, there are no roads.</HeroH1>
-        <br></br>
-        <br></br>
-        <br></br>
+        <TopLine>The Mission</TopLine>
         <img src={map} width="50%" class="img-responsive"/>
       </HeroContent>
     </HeroContainer>

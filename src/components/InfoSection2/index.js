@@ -8,9 +8,9 @@ import {
   TextWrapper,
   TopLine,
   Heading,
-  Subtitle,
+  Body,
   ImgWrap,
-  Img
+  Img,
 } from './InfoElements';
 import mural from '../../images/Marwan-Mural.gif'; // with import
 
@@ -40,12 +40,12 @@ const InfoSection = ({
               <TextWrapper>  
                 <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
-                <Subtitle darkText={darkText}>{description}</Subtitle>
+                <Body darkText={darkText}>{description}</Body>
                 <ImgWrap>
-              <a href="https://arabic.cnn.com/style/article/2018/08/15/egypt-marwan-shahin"><Img src={img7} alt={alt}/></a>
-              <a href="https://designmuseum.org/exhibitions/hope-to-nope-graphics-and-politics-2008-18/qa-with-marwan-shahin#"><Img src={img8} alt={alt}/></a>
-              <a href="https://www.egypttoday.com/Article/4/3074/Artist-Of-The-Month-Marwan-Shahin"><Img src={img9} alt={alt}/></a>
-              </ImgWrap>
+                  <div><Img src={img7} alt={alt}/></div>
+                  <div><Img src={img8} alt={alt}/></div>
+                  <div><Img src={img9} alt={alt}/></div>
+                </ImgWrap>
               </TextWrapper> 
             </Column1>
             <Column2>

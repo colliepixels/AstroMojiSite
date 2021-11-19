@@ -1,28 +1,28 @@
 import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
-  color: #fff;
-  background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#000000')};
-  padding: 0 0 100px;
+    color: #fff;
+    background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#000000')};
+    padding: 0 0 200px;
 
-  @media screen and (max-width: 1200px) {
-    padding: 0 36px;
-  }
+    @media screen and (max-width: 1200px) {
+        padding: 0 60px 100px;
+    }
+    
+    @media screen and (max-width: 768px) {
+        padding: 0 36px 100px;
+    }
 `;
 
 export const InfoWrapper = styled.div`
-  display: grid;
-  z-index: ;
-  width: 100%;
-  max-width: 1070px;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 0 0px;
-  justify-content: center;
-  
-  @media screen and (max-width: 768px) {
-    margin-left: 0px;
-  }
+    display: grid;
+    z-index: ;
+    width: 100%;
+    max-width: 1070px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+    justify-content: center;
 `;
 
 export const InfoRow = styled.div`
@@ -44,9 +44,12 @@ export const Column1 = styled.div`
   padding: 0 60px 0 0;
   grid-area: col1;
   
+  @media screen and (max-width: 868px) {
+    padding: 0;
+  }
+  
   @media screen and (max-width: 768px) {
     margin: 0 0 0 0;
-    padding: 0;
   }  
 `;
 
@@ -60,7 +63,7 @@ export const TextWrapper = styled.div`
   max-width: 540px;
   padding-top: 0;
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 868px) {
     max-width: 100%;
   }  
 `;
@@ -97,7 +100,6 @@ export const Body = styled.p`
   font-family: Helvetica, sans-serif;
   white-space: pre-wrap;
 `;
-
 
 export const ImgWrap = styled.div`
     max-width: 955px;

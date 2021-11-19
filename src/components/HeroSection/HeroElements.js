@@ -11,7 +11,7 @@ export const HeroContainer = styled.div`
   z-index: 1;
     
   @media screen and (max-width: 768px) {
-    padding: 100px 6px 136px;
+    padding: 100px 6px 100px;
   }
   
 
