@@ -43,6 +43,7 @@ const InfoSection = ({
             </ImgWrap>
           </Column2>
         </InfoRow>
+        <div id="marwan-shahin"/>
       </InfoWrapper>
     </InfoContainer>
   )

@@ -103,6 +103,10 @@ export const Subtitle = styled.span`
   @media screen and (max-width: 480px) {
     font-size: 16px;
   }
+  
+  a {
+    color: #fff;
+  }
 `;
 
 export const Body = styled.p`

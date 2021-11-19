@@ -11,7 +11,8 @@ import {
     Body,
 } from './HeroElements';
 
-import frame from './frame-web2.gif'; // with import
+import frame from './frame-web2.gif';
+import {Link} from "react-router-dom"; // with import
 
 function HeroSection() {
     const [hover, setHover] = useState(false)
@@ -26,7 +27,7 @@ function HeroSection() {
             <HeroContent>
                 <Image src={frame} />
                 <Title>11,111 NFT Collection</Title>
-                <Subtitle>Crafted by Marwan Shahin</Subtitle>
+                <Subtitle>Crafted by <a href="/#marwan-shahin">Marwan Shahin</a></Subtitle>
                 <Body>
                     Humankind has explored the furthest depths of outer space. <span>Now</span>,
                     a courageous collection of explorers, the Astromojis, have gathered to explore
