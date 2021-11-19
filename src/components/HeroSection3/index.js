@@ -58,7 +58,7 @@ const members = [
     {
         "image": avatar_scout,
         "name": "Lamsing",
-        "role": "Community Leader",
+        "role": "Community Manager",
         "description": "Lamsing is a Crypto manic who went rogue, NFT Addict, product builder, Spends all his fiat on NFT's, ex-Martial arts sensei, Passionate about NFT's, Crypto & Art! #NFTs4aBetterWorld",
         "twitter_handle": "@lamsingcap",
         "twitter_url": "https://twitter.com/Lamsingcap"
