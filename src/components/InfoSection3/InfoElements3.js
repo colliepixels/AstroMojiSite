@@ -3,22 +3,21 @@ import styled from 'styled-components';
 export const InfoContainer = styled.div`
   color: #fff;
   background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')};
-
-  @media screen and (max-width: 768px) {
-    padding: 100px 0;
-  }
 `;
 
 export const InfoWrapper = styled.div`
   display: grid;
   z-index: 1;
-  height: 960px;
   width: 100%;
   max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
-  padding: 0 0px;
+  padding: 120px 0px;
   justify-content: center;
+  
+  @media screen and (max-width: 768px) {
+    padding: 20px 0px 80px;
+  }  
 `;
 
 export const InfoRow = styled.div`
@@ -101,4 +100,8 @@ export const Img = styled.img`
   margin-right: 0;
   margin-left: 10px;
   padding-right: 0;
+  
+  @media screen and (max-width: 768px) {
+    margin-left: 0px;
+  }  
 `;

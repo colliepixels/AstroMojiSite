@@ -1,15 +1,19 @@
 import styled from 'styled-components';
-import { MdKeyboardArrowRight, MdArrowForward } from 'react-icons/md';
+import {MdKeyboardArrowRight, MdArrowForward} from 'react-icons/md';
 
 export const HeroContainer = styled.div`
   background: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 30px;
-  height: 1350px;
+  padding: 100px 30px;
   position: relative;
   z-index: 1;
+    
+  @media screen and (max-width: 768px) {
+    padding: 100px 30px;
+  }
+  
 
   :before {
     content: '';
@@ -38,7 +42,7 @@ export const HeroBg = styled.div`
   width: 100%;
   height: 100%;
   overflow: hidden;
-`;
+`
 
 export const VideoBg = styled.video`
   width: 100%;
@@ -53,7 +57,6 @@ export const VideoBg = styled.video`
 export const HeroContent = styled.div`
   z-index: 3;
   max-width: 1200px;
-  position: absolute;
   padding: 8px 24px;
   display: flex;
   flex-direction: column;

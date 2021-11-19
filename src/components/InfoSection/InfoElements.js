@@ -3,22 +3,26 @@ import styled from 'styled-components';
 export const InfoContainer = styled.div`
   color: #fff;
   background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')};
+  padding: 150px 0 100px;
 
   @media screen and (max-width: 768px) {
-    padding: 100px 0;
+    padding: 60px 0;
   }
 `;
 
 export const InfoWrapper = styled.div`
   display: grid;
   z-index: ;
-  height: 980px;
   width: 100%;
   max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
   padding: 0 0px;
   justify-content: center;
+  
+  @media screen and (max-width: 768px) {
+    margin-left: 0px;
+  }
 `;
 
 export const InfoRow = styled.div`
@@ -48,6 +52,9 @@ export const Column2 = styled.div`
   grid-area: col2;
   margin-left: 15px;
   
+  @media screen and (max-width: 768px) {
+    margin-left: 0px;
+  }  
 `;
 
 export const TextWrapper = styled.div`
