@@ -99,13 +99,15 @@ export const SocialLogo = styled(Link)`
 
 export const SocialIcons = styled.div`
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 70px;
+  margin-right: 50px;
 
 `;
 
 export const SocialIconLink = styled.a`
   color: #fff;
   font-size: 24px;
+  margin-right: 20px;
 `;

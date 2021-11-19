@@ -14,7 +14,6 @@ export const HeroContainer = styled.div`
     padding: 100px 6px 100px;
   }
   
-
   :before {
     content: '';
     position: absolute;
