@@ -27,6 +27,7 @@ export const NavbarContainer = styled.div`
   width: 100%;
   padding: 0 24px;
   max-width: 1100px;
+  align-items: center;
 `;
 
 export const NavLogo = styled(LinkR)`
@@ -36,9 +37,11 @@ export const NavLogo = styled(LinkR)`
   font-size: 1.5rem;
   display: flex;
   align-items: center;
-  margin-left: 24px;
   font-weight: bold;
   text-decoration: none;
+  
+  @media screen and (max-width: 768px) {
+    width: 80%;
 `;
 
 export const MobileIcon = styled.div`

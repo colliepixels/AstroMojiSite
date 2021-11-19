@@ -42,8 +42,8 @@ const members = [
         "name": "FARID",
         "role": "Mental Health Expert",
         "description": "Dr. Farid is a Clinical Psychologist and host of \"In Session,\" where he covers topics relevant to psychology and mental health. He brings awareness and helps promote a culture of understanding and knowledge.",
-        "twitter_handle": "",
-        "twitter_url": ""
+        "twitter_handle": "@FaridHolakouee",
+        "twitter_url": "https://twitter.com/FaridHolakouee"
     },
     {
         "image": avatar_jazz,
