@@ -66,7 +66,7 @@ export const HeroContent = styled.div`
 `;
 
 export const Image = styled.img`
-    width: 60%;
+    width: 50%;
     @media screen and (max-width: 768px) {
         width: 80%;
     }

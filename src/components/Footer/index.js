@@ -8,14 +8,14 @@ import { animateScroll as scroll } from 'react-scroll';
 import {
   FooterContainer,
   FooterWrap,
-  FooterLinksContainer,
-  FooterLinksWrapper,
   SocialMedia,
   SocialMediaWrap,
   SocialLogo,
   WebsiteRights,
   SocialIcons,
-  SocialIconLink
+  SocialIconLink,
+  TermsLink,
+  LinkWrapper
 } from './FooterElements';
 import bannerlogo from './Banner-Logo-for-web.png'; // with import
 
@@ -27,16 +27,15 @@ const Footer = () => {
   return (
     <FooterContainer>
       <FooterWrap>
-        <FooterLinksContainer>
-          <FooterLinksWrapper>
-          </FooterLinksWrapper>
-        </FooterLinksContainer>
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to='/' onClick={toggleHome}>
               <img src={bannerlogo} alt={'AstroMoji'} />
             </SocialLogo>
-            <WebsiteRights>AstroMojis🚀 © 2021 All rights reserved.</WebsiteRights>
+            <LinkWrapper>
+              <WebsiteRights>AstroMojis🚀 © 2021 All rights reserved.</WebsiteRights>
+              <TermsLink href="/terms.pdf" rel="noreferrer noopener" target="_blank">Terms of Service</TermsLink>
+            </LinkWrapper>
             <SocialIcons>
               
               <SocialIconLink href='https://www.instagram.com/astro.mojis/' target='_blank' aria-label='Instagram'>
