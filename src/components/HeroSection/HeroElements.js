@@ -126,13 +126,13 @@ export const Body = styled.p`
     text-align: justify;
     text-justify: auto;
     color: #fff;
-    font-size: 1.75rem;
-    line-height: 2.5rem;
+    font-size: 1.325rem;
+    line-height: 1.875rem;
     font-family: 'Cinzel', serif;
 
     @media screen and (max-width: 768px) {
-        font-size: 1.5rem;
-        line-height: 2.2rem;
+        font-size: 1rem;
+        line-height: 1.5rem;
         text-align: center;
         max-width: 100%;
     }
