@@ -19,9 +19,9 @@ function HeroSection() {
     };
     return (
         <HeroContainer id='home'>
-            <HeroBg>
-                <VideoBg playsInline autoPlay loop muted src={Video} type='video/mp4'/>
-            </HeroBg>
+            {/*<HeroBg>*/}
+            {/*    <VideoBg playsInline autoPlay loop muted src={Video} type='video/mp4'/>*/}
+            {/*</HeroBg>*/}
             <HeroContent>
                 <img src={ship} width="100%"/>
                 <TopLine>The Mission</TopLine>
