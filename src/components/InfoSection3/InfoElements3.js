@@ -116,6 +116,7 @@ export const Subtitle = styled.p`
 `;
 
 export const FootNote = styled.span`
+    font-family: 'Cinzel', serif;
     margin-top: 48px;
     max-width: 100%;
     text-align: justify;

@@ -90,11 +90,12 @@ export const Title = styled.h1`
 
 export const Subtitle = styled.span`
   margin-top: 18px;
-  color: #fff;
-  font-size: 22px;
-  text-align: center;
-  max-width: 800px;
-  font-family: Helvetica, sans-serif;
+  color: #ffd800;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
 
   @media screen and (max-width: 768px) {
     font-size: 18px;
@@ -105,9 +106,19 @@ export const Subtitle = styled.span`
   }
   
   a {
-    color: #fff;
+    color: #ffd800;
   }
 `;
+
+// export const TopLine = styled.div`
+//   color: #ffd800;
+//   font-size: 16px;
+//   line-height: 16px;
+//   font-weight: 700;
+//   letter-spacing: 1.4px;
+//   text-transform: uppercase;
+//   margin-bottom: 16px;
+// `;
 
 export const Body = styled.p`
     margin-top: 48px;
@@ -115,10 +126,13 @@ export const Body = styled.p`
     text-align: justify;
     text-justify: auto;
     color: #fff;
-    font-size: 24px;
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+    font-family: 'Cinzel', serif;
 
     @media screen and (max-width: 768px) {
-        font-size: 18px;
+        font-size: 1.5rem;
+        line-height: 2.2rem;
         text-align: center;
         max-width: 100%;
     }

@@ -29,7 +29,7 @@ function HeroSection() {
                 <Title>11,111 NFT Collection</Title>
                 <Subtitle>Crafted by <a href="/#marwan-shahin">Marwan Shahin</a></Subtitle>
                 <Body>
-                    Humankind has explored the furthest depths of outer space. <span>Now</span>,
+                    Humankind has explored the furthest depths of outer space. Now,
                     a courageous collection of explorers, the Astromojis, have gathered to explore
                     the final frontier. Become an Astromoji and take the journey through the depths
                     of inner space, as we endeavor to create inner peace.
