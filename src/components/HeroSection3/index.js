@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import Video from '../../videos/video4.mp4';
 import {
     HeroContainer,
@@ -97,11 +97,17 @@ const Members = styled.div`
 `
 
 const HeroSection = () => {
-    const [hover, setHover] = useState(false);
+    const [hover, setHover] = useState(false)
+    const [shuffle, setShuffle] = useState([])
 
     const onHover = () => {
         setHover(!hover);
     };
+
+    useEffect(() => {
+        setShuffle(members.sort(() => Math.random() - 0.5))
+    })
+
     return (
         <HeroContainer id='home'>
             <HeroBg>
@@ -110,7 +116,7 @@ const HeroSection = () => {
             <HeroContent>
                 <HeroH1>AstroMojis Comrades</HeroH1>
                 <Members>
-                    {members.map(item => <Member member={item}/>)}
+                    {shuffle.map(item => <Member member={item}/>)}
                 </Members>
             </HeroContent>
         </HeroContainer>

@@ -94,3 +94,16 @@ export const HeroBtnWrapper = styled.div`
   flex-direction: column;
   align-items: center;
 `;
+
+export const Image = styled.img`
+  width: 75%;
+  height: auto;
+  
+  @media screen and (max-width: 768px) {
+    width: 85%;
+  }  
+  
+  @media screen and (max-width: 480px) {
+    width: 100%;
+  }
+`
