@@ -29,11 +29,11 @@ function HeroSection() {
         <VideoBg playsInline autoPlay loop muted src={Video} type='video/mp4' />
       </HeroBg>
       <HeroContent>
-      <HeroH1>AstroMoji Team</HeroH1>
+      <HeroH1>AstroMojis Comrades</HeroH1>
         <a href="https://twitter.com/jurriaan_bakker"><img src={bio1} width="100%"/></a>
         <a href="https://twitter.com/ariyabehjat"><img src={bio2} width="100%"/></a>
         <a href="https://twitter.com/southern_expat"><img src={bio3} width="100%"/></a>
-        <a href="https://twitter.com/PujiPup"><img src={bio4} width="100%"/></a>
+
         <a href="https://twitter.com/Lamsingcap"><img src={bio5} width="100%"/></a>
         <a href="https://twitter.com/VRDLOKO"><img src={bio6} width="100%"/></a>
         <a href="https://twitter.com/jazzcallner"><img src={bio7} width="100%"/></a> 

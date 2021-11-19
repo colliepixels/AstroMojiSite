@@ -34,7 +34,7 @@ const Footer = () => {
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to='/' onClick={toggleHome}>
-            <img src={bannerlogo} alt={'AstroMoji'} />
+              <img src={bannerlogo} alt={'AstroMoji'} />
             </SocialLogo>
             <WebsiteRights>AstroMojis🚀 © 2021 All rights reserved.</WebsiteRights>
             <SocialIcons>

@@ -9,10 +9,10 @@ export const InfoWrapper = styled.div`
   display: grid;
   z-index: 1;
   width: 100%;
-  max-width: 1100px;
+  max-width: 1070px;
   margin-right: auto;
   margin-left: auto;
-  padding: 120px 0px;
+  padding: 120px 0px 60px;
   justify-content: center;
   
   @media screen and (max-width: 768px) {
@@ -84,9 +84,14 @@ export const Subtitle = styled.p`
   font-family: Helvetica, sans-serif;
 `;
 
-export const BtnWrap = styled.div`
-  display: flex;
-  justify-content: flex-start;
+export const FootNote = styled.span`
+    margin-top: 48px;
+    max-width: 100%;
+    text-align: justify;
+    text-justify: auto;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
 `;
 
 export const ImgWrap = styled.div`
