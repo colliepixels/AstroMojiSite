@@ -11,10 +11,13 @@ export const HeroContainer = styled.div`
   position: relative;
   z-index: 1;
 
-  @media screen and (max-width: 480px) {
-    height: 1000px;
+  padding: 0 0 200px;
+  position: relative;
+  z-index: 1;
+    
+  @media screen and (max-width: 768px) {
+    padding: 0 36px 100px;
   }
-
 `;
 
 export const HeroBg = styled.div`
@@ -40,11 +43,15 @@ export const VideoBg = styled.video`
 
 export const HeroContent = styled.div`
   z-index: 3;
-  max-width: 1200px;
+  max-width: 1400px;
   padding: 0px 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  
+    @media screen and (max-width: 768px) {
+        padding: 0 0;
+    }
 `;
 
 export const HeroH1 = styled.h1`
