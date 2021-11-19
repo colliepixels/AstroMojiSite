@@ -4,10 +4,10 @@ export const homeObjOne = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'The Alpha...',
-  headline: 'Lifting off soon',
+  topLine: 'The Saga',
+  headline: 'Our interdimensional civilization',
   description:
-    'Our world got smaller, forcing us to explore new planets. At first we felt that our space helmets were a social barrier to our intimacy and communication. Soon we became one with them; A cyborg meshed with digital, physical, and emotional intelligence.',
+    'AstroMojis naturally come with two expressions, the expression of the astronaut and the expression of their AstroMojis helmet. Only the rarest AstroMojis have achieved genuine contentment with themselves, and so they can remove their helmets, no longer feeling the need to be hidden or protected. \n\n AstroMojis aims to bridge the gap between the self we find ourselves presenting to the world and the authentic self that is within. We’ll do this by exploring concepts such as vulnerability, self-compassion, mindfulness, self-development, self-love, and acceptance, as we all strive to develop a cohesive self in all the worlds, both in real life and in the metaverse.',
   buttonLabel: '/',
   imgStart: false,
   img: require('../../images/animate-in.gif'),
