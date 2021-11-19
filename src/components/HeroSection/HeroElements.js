@@ -11,7 +11,7 @@ export const HeroContainer = styled.div`
   z-index: 1;
     
   @media screen and (max-width: 768px) {
-    padding: 100px 30px;
+    padding: 100px 6px;
   }
   
 
@@ -55,73 +55,72 @@ export const VideoBg = styled.video`
 `;
 
 export const HeroContent = styled.div`
-  z-index: 3;
-  max-width: 1200px;
-  padding: 8px 24px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    z-index: 3;
+    max-width: 1200px;
+    //padding: 8px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    @media screen and (max-width: 768px) {
+        padding: 0px 24px;
+    }
 `;
 
-export const HeroH1 = styled.h1`
+export const Image = styled.img`
+    width: 60%;
+    @media screen and (max-width: 768px) {
+        width: 80%;
+    }
+`
+
+export const Title = styled.h1`
   color: #fff;
   font-size: 48px;
   text-align: center;
 
   @media screen and (max-width: 768px) {
-    font-size: 40px;
+    font-size: 42px;
+    margin-top: 24px;
   }
 
   @media screen and (max-width: 480px) {
-    font-size: 32px;
+    font-size: 36px;
+    line-height: 1.2;
   }
 `;
 
-export const HeroH2 = styled.h2`
+export const Subtitle = styled.span`
+  margin-top: 18px;
   color: #fff;
-  font-size: 24px;
-  text-align: center;
-
-  @media screen and (max-width: 768px) {
-    font-size: 40px;
-  }
-
-  @media screen and (max-width: 480px) {
-    font-size: 32px;
-  }
-`;
-
-export const HeroP = styled.p`
-  margin-top: 24px;
-  color: #fff;
-  font-size: 24px;
+  font-size: 22px;
   text-align: center;
   max-width: 800px;
   font-family: Helvetica, sans-serif;
 
   @media screen and (max-width: 768px) {
-    font-size: 24px;
+    font-size: 18px;
   }
 
   @media screen and (max-width: 480px) {
-    font-size: 18px;
+    font-size: 16px;
   }
 `;
 
-export const HeroP2 = styled.p`
-  margin-top: 24px;
-  color: #fff;
-  font-size: 18px;
-  text-align: center;
-  max-width: 600px;
-
-  @media screen and (max-width: 768px) {
+export const Body = styled.p`
+    margin-top: 48px;
+    max-width: 80%;
+    text-align: justify;
+    text-justify: inter-word;
+    color: #fff;
     font-size: 24px;
-  }
 
-  @media screen and (max-width: 480px) {
-    font-size: 18px;
-  }
+    @media screen and (max-width: 768px) {
+        font-size: 18px;
+        text-align: center;
+        text-justify: auto;
+        max-width: 100%;
+    }
 `;
 
 export const HeroBtnWrapper = styled.div`
@@ -129,14 +128,4 @@ export const HeroBtnWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-`;
-
-export const ArrowForward = styled(MdArrowForward)`
-  margin-left: 8px;
-  font-size: 20px;
-`;
-
-export const ArrowRight = styled(MdKeyboardArrowRight)`
-  margin-left: 8px;
-  font-size: 20px;
 `;

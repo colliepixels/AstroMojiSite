@@ -46,21 +46,6 @@ const Navbar = ({ toggle }) => {
               <SocialMediaWrap>
                 <SocialIcons>
                   <SocialIconLink
-                    target="_blank"
-                    aria-label="Twitter"
-                    href="https://www.twitter.com/Astromojis"
-                  >
-                    <FaTwitter />
-                  </SocialIconLink>
-
-                  <SocialIconLink
-                    href="https://www.instagram.com/astro.mojis/"
-                    target="_blank"
-                    aria-label="Instagram"
-                  >
-                    <FaInstagram />
-                  </SocialIconLink>
-                  <SocialIconLink
                     href="https://discord.gg/ugnYPKrcmM"
                     target="_blank"
                     aria-label="Discord"
