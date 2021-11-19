@@ -6,7 +6,7 @@ export const HeroContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 10px;
+  padding: 0 10px 100px;
   position: relative;
   z-index: 1;
 
@@ -27,6 +27,10 @@ export const HeroContainer = styled.div`
       @media (max-width: 768px) {
         height: 00px;
       }
+  }
+  
+  @media screen and (max-width: 768px) {
+    padding: 0 10px 60px;
   }
 `;
 

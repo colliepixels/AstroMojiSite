@@ -6,6 +6,8 @@ import {
     VideoBg,
     HeroContent,
     HeroH1,
+    TopLine,
+    Members
 } from './HeroElements';
 
 import avatar_ariya from '../../images/avatar_ariya.png'
@@ -74,8 +76,8 @@ const members = [
         "name": "Scout",
         "role": "Community Developer",
         "description": "Being a multifaceted community socialite, Scout has worked with about 10 NFT community projects within the last quarter. Scout has helped amplify NFT brands through empowering scalability and community values.",
-        "twitter_handle": "",
-        "twitter_url": ""
+        "twitter_handle": "@GodScouter",
+        "twitter_url": "https://twitter.com/GodScouter"
     },
     {
         "image": avatar_vrdloko,
@@ -86,21 +88,6 @@ const members = [
         "twitter_url": "https://twitter.com/VRDLOKO"
     },
 ]
-
-const Members = styled.div`
-      display: grid; 
-      grid-template-columns: repeat(2, 1fr); 
-      grid-template-rows: repeat(3, 1fr); 
-      grid-column-gap: 60px;
-      grid-row-gap: 60px; 
-      margin-top: 60px;
-  
-    @media screen and (max-width: 1070px) {
-        //max-width: 100%;
-        grid-template-columns: 1fr; 
-        grid-template-rows: repeat(3, 1fr); 
-    }  
-`
 
 const HeroSection = () => {
     const [hover, setHover] = useState(false)
@@ -120,7 +107,7 @@ const HeroSection = () => {
                 <VideoBg playsInline autoPlay loop muted src={Video} type='video/mp4'/>
             </HeroBg>
             <HeroContent>
-                <HeroH1>AstroMojis Comrades</HeroH1>
+                <TopLine>AstroMojis Comrades</TopLine>
                 <Members>
                     {shuffle.map(item => <Member member={item}/>)}
                 </Members>

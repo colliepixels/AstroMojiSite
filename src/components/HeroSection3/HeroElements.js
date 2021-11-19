@@ -68,9 +68,34 @@ export const HeroH1 = styled.h1`
   }
 `;
 
+export const TopLine = styled.div`
+  color: #ffd800;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+`;
+
 export const HeroBtnWrapper = styled.div`
   margin-top: 32px;
   display: flex;
   flex-direction: column;
   align-items: center;
 `;
+
+export const Members = styled.div`
+      display: grid; 
+      grid-template-columns: repeat(2, 1fr); 
+      grid-template-rows: repeat(3, 1fr); 
+      grid-column-gap: 60px;
+      grid-row-gap: 60px; 
+      margin-top: 60px;
+  
+    @media screen and (max-width: 1070px) {
+        //max-width: 100%;
+        grid-template-columns: 1fr; 
+        grid-template-rows: repeat(3, 1fr); 
+    }  
+`
