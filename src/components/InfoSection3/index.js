@@ -46,8 +46,7 @@ const InfoSection3 = ({
                                         <li>A white-hat NFT project</li>
                                         <li>111 AstroMojis reserved for promos</li>
                                         <li>8 Attributes, each with many traits</li>
-                                        <li>Commuinty driven roadmap</li>
-                                        <li>Tangible art airdrops</li>
+                                        <li>Community driven roadmap</li>
                                     </ul>
                                 </Subtitle>
                             </TextWrapper>
