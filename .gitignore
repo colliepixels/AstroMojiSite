@@ -54,11 +54,7 @@ typings/
 *.tgz
 
 # dotenv environment variable files
-.env*
-
-# gatsby files
-.cache/
-public
+.env*xw
 
 # Mac files
 .DS_Store
