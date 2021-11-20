@@ -12,7 +12,7 @@ import {
   ImgWrap,
   Img,
 } from './InfoElements';
-import mural from '../../images/Marwan-Mural.gif'; // with import
+import mural from '../../images/marwan.gif'; // with import
 
 const InfoSection = ({
   lightBg,

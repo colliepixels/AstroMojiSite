@@ -16,7 +16,6 @@ import {
     SocialIconLink,
 } from "./FooterElements";
 import bannerlogo from './Banner-Logo-for-web.png'; // with import
-import {ReactComponent as Discord} from '../../images/discord.svg';
 import discord from '../../images/discord.png';
 
 const Navbar = ({toggle}) => {

@@ -58,7 +58,12 @@ const InfoSection3 = ({
                             </ImgWrap>
                         </Column2>
                     </InfoRow>
-                  <FootNote>Primary reality is within; secondary reality without</FootNote>
+                  <FootNote>
+                      AstroMojis realize that the present moment is all we have. Making “the now” the primary focus of
+                      our lives. If we get the inside right, the outside will fall into place.
+                        <br/><br/>
+                      Primary reality starts within and Secondary reality follows.
+                  </FootNote>
                 </InfoWrapper>
             </InfoContainer>
         </>

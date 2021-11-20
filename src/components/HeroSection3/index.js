@@ -10,14 +10,14 @@ import {
     Members
 } from './HeroElements';
 
-import avatar_ariya from '../../images/avatar_ariya.png'
-import avatar_collie from '../../images/avatar_collie.png'
-import avatar_jazz from '../../images/avatar_jazz.png'
-import avatar_lamsing from '../../images/avatar_lamsing.png'
-import avatar_vrdloko from '../../images/avatar_vrdloko.png'
-import avatar_jurriaan from '../../images/avatar_jurriaan.png'
-import avatar_farid from '../../images/avatar_farid.png'
-import avatar_scout from '../../images/avatar_scout.png'
+import avatar_ariya from '../../images/avatar_ariya.jpg'
+import avatar_collie from '../../images/avatar_collie.jpg'
+import avatar_jazz from '../../images/avatar_jazz.jpg'
+import avatar_lamsing from '../../images/avatar_lamsing.jpg'
+import avatar_vrdloko from '../../images/avatar_vrdloko.jpg'
+import avatar_jurriaan from '../../images/avatar_jurriaan.jpg'
+import avatar_farid from '../../images/avatar_farid.jpg'
+import avatar_scout from '../../images/avatar_scout.jpg'
 import Member from "./Member";
 import styled from "styled-components";
 
@@ -83,7 +83,7 @@ const members = [
         "image": avatar_vrdloko,
         "name": "VRDLOKO",
         "role": "Community Leader",
-        "description": "'Crazy Earthlingz! Enthousiast to unite and connect with every atom of the Crypto & NFT Universe. Started hist passion with Crypto & got addicted to NFTs to spread love ad unity.",
+        "description": "'Crazy Earthlingz! Enthousiast to unite and connect with every atom of the Crypto & NFT Universe. Started hist passion with Crypto & got addicted to NFTs to spread love and unity.",
         "twitter_handle": "@vrdloko",
         "twitter_url": "https://twitter.com/VRDLOKO"
     },

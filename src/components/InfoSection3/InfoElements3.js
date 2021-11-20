@@ -58,23 +58,14 @@ export const Column1 = styled.div`
 `;
 
 export const Column2 = styled.div`
-  margin-bottom: 15px;
-  padding: 0;
-  grid-area: col2;
+    margin-bottom: 15px;
+    padding: 0;
+    grid-area: col2;
+    
+    @media screen and (max-width: 768px) {
+        margin-bottom: 60px;
+    } 
 `;
-
-// export const Column1 = styled.div`
-//
-//   margin-bottom: 15px;
-//   padding: 0 55px;
-//   grid-area: col1;
-// `;
-//
-// export const Column2 = styled.div`
-//   margin-bottom: 15px;
-//   padding: 0 15px;
-//   grid-area: col2;
-// `;
 
 export const TextWrapper = styled.div`
   max-width: 540px;
@@ -116,14 +107,21 @@ export const Subtitle = styled.p`
 `;
 
 export const FootNote = styled.span`
-    font-family: 'Cinzel', serif;
-    margin-top: 48px;
-    max-width: 100%;
+    margin: 48px auto;
+    max-width: 80%;
     text-align: justify;
     text-justify: auto;
     color: #fff;
-    text-align: center;
-    font-size: 12px;
+    font-size: 1.325rem;
+    line-height: 1.875rem;
+    font-family: 'Cinzel', serif;
+
+    @media screen and (max-width: 768px) {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        text-align: center;
+        max-width: 100%;
+    }
 `;
 
 export const ImgWrap = styled.div`

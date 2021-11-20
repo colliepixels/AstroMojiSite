@@ -18,6 +18,7 @@ import {
   LinkWrapper
 } from './FooterElements';
 import bannerlogo from './Banner-Logo-for-web.png'; // with import
+import discord from '../../images/discord.png';
 
 
 const Footer = () => {
@@ -49,8 +50,13 @@ const Footer = () => {
               >
                 <FaTwitter />
               </SocialIconLink>
-              <SocialIconLink href='https://discord.gg/ugnYPKrcmM' target='_blank' aria-label='Discord'>
-                <FaDiscord />
+              <SocialIconLink
+                  href='https://discord.gg/ugnYPKrcmM'
+                  target='_blank'
+                  aria-label='Discord'
+                  style={{marginTop: "4px"}}
+              >
+                <img src={discord} width="26px"/>
               </SocialIconLink>
             </SocialIcons>
           </SocialMediaWrap>

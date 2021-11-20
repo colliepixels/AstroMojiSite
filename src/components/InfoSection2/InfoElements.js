@@ -105,7 +105,10 @@ export const Body = styled.p`
 export const ImgWrap = styled.div`
     display: flex;
     justify-content: space-between;
-    margin-top: 36px;
+    
+    @media screen and (max-width: 480px) {
+        margin-top: 36px;
+    }
 `;
 
 export const Img = styled.img`
