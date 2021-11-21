@@ -10,6 +10,7 @@ import {
 import ship from './SPACE-SHIP-MAIN-web.png'; // with import
 import map from './vertical-roadmap.png';
 import roadmap from '../../images/roadmap.png';
+import Roadmap from "./Roadmap";
 
 function HeroSection() {
     const [hover, setHover] = useState(false);
@@ -25,6 +26,7 @@ function HeroSection() {
             <HeroContent>
                 <img src={ship} width="100%"/>
                 <TopLine>The Mission</TopLine>
+                <Roadmap/>
                 <Image src={roadmap} />
             </HeroContent>
         </HeroContainer>

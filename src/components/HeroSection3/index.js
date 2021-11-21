@@ -1,15 +1,15 @@
 import React, {useEffect, useState} from 'react';
 import Video from '../../videos/video4.mp4';
+import Member from "./Member";
+
 import {
     HeroContainer,
     HeroBg,
     VideoBg,
     HeroContent,
-    HeroH1,
     TopLine,
     Members
 } from './HeroElements';
-
 import avatar_ariya from '../../images/avatar_ariya.jpg'
 import avatar_collie from '../../images/avatar_collie.jpg'
 import avatar_jazz from '../../images/avatar_jazz.jpg'
@@ -18,8 +18,6 @@ import avatar_vrdloko from '../../images/avatar_vrdloko.jpg'
 import avatar_jurriaan from '../../images/avatar_jurriaan.jpg'
 import avatar_farid from '../../images/avatar_farid.jpg'
 import avatar_scout from '../../images/avatar_scout.jpg'
-import Member from "./Member";
-import styled from "styled-components";
 
 
 const members = [
