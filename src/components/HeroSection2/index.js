@@ -27,7 +27,6 @@ function HeroSection() {
                 <img src={ship} width="100%"/>
                 <TopLine>The Mission</TopLine>
                 <Roadmap/>
-                <Image src={roadmap} />
             </HeroContent>
         </HeroContainer>
     );
