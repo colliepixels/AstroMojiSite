@@ -116,6 +116,11 @@ export const ImgWrap = styled.div`
 export const Img = styled.img`
     flex: 1 1 auto;
     max-width:100%;
+    
+    &:hover {
+        transform: scale(1.1);
+        transition: all 0.2s ease-out;
+    }
 `;
 
 export const PartnerContainer = styled.div`
