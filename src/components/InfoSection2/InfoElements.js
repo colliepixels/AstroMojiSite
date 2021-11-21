@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+import cnn from "../../images/logo-cnn.png";
+import React from "react";
 
 export const InfoContainer = styled.div`
     color: #fff;
@@ -115,3 +117,18 @@ export const Img = styled.img`
     flex: 1 1 auto;
     max-width:100%;
 `;
+
+export const PartnerContainer = styled.div`
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: repeat(2, 1fr); 
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+`
+
+export const PartnerLink = ({logo, url, alt}) =>
+    <div>
+        <a href={url} target="_blank" rel="noreferrer noopener">
+            <Img width={'80%'} src={logo} alt={alt}/>
+        </a>
+    </div>
