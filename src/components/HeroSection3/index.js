@@ -48,7 +48,7 @@ const members = [
     {
         "image": avatar_jazz,
         "name": "JAZZ",
-        "role": "Metwork Manager",
+        "role": "Network Manager",
         "description": "Jazz has been at the leading edge of culture since childhood. In 2014, he founded NextAge Label. featured in Resident Advisor, XLR8R, THe Fader, Tabs Out, & more. COO of family-owned boutique film & production studio Cream Cheese Films",
         "twitter_handle": "@jazzcallner",
         "twitter_url": "https://twitter.com/jazzcallner"
