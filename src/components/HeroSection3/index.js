@@ -81,7 +81,7 @@ const members = [
         "image": avatar_vrdloko,
         "name": "VRDLOKO",
         "role": "Community Leader",
-        "description": "'Crazy Earthlingz! Enthusiast to unite and connect with every atom of the Crypto & NFT Universe. Started hist passion with Crypto & got addicted to NFTs to spread love and unity.",
+        "description": "'Crazy Earthlingz! Enthusiast to unite and connect with every atom of the Crypto & NFT Universe. Started his passion with Crypto & got addicted to NFTs to spread love and unity.",
         "twitter_handle": "@vrdloko",
         "twitter_url": "https://twitter.com/VRDLOKO"
     },
