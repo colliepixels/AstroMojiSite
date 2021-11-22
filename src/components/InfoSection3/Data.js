@@ -10,7 +10,7 @@ export const homeObjOne = {
   buttonLabel: '/',
   imgStart: false,
   img: require('../../images/'),
-  alt: 'AstroMojis',animate-in.gif
+  alt: 'AstroMojis',
   dark: true,
   primary: true,
   darkText: false

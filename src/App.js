@@ -8,7 +8,7 @@ import { init } from './web3client';
 
 function App() {
   useEffect(() => {
-    init();
+    //init();
     
   }, []);
 

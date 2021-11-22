@@ -8,7 +8,7 @@ import {
   TextWrapper,
   TopLine,
   Heading,
-  Subtitle,
+  Body,
   ImgWrap,
   Img
 } from './InfoElements';
@@ -27,27 +27,26 @@ const InfoSection = ({
 }) => {
   console.log(primary);
   return (
-    <>
-      <InfoContainer lightBg={lightBg} id={id}>
-        <InfoWrapper>
-          <InfoRow imgStart={imgStart}>
-            <Column1>
-              <TextWrapper>
-                <TopLine>{topLine}</TopLine>
-                <Heading lightText={lightText}>{headline}</Heading>
-                <Subtitle darkText={darkText}>{description}</Subtitle>
-              </TextWrapper> 
-            </Column1>
-            <Column2>
-              <ImgWrap>
+    <InfoContainer lightBg={lightBg} id={id}>
+      <InfoWrapper>
+        <InfoRow imgStart={imgStart}>
+          <Column1>
+            <TextWrapper>
+              <TopLine>{topLine}</TopLine>
+              <Heading lightText={lightText}>{headline}</Heading>
+              <Body darkText={darkText}>{description}</Body>
+            </TextWrapper>
+          </Column1>
+          <Column2>
+            <ImgWrap>
               <Img src={img} width="100%" class="img-responsive"/>
-              </ImgWrap>
-            </Column2>
-          </InfoRow>
-        </InfoWrapper>
-      </InfoContainer>
-    </>
-  );
-};
+            </ImgWrap>
+          </Column2>
+        </InfoRow>
+        <div id="marwan-shahin"/>
+      </InfoWrapper>
+    </InfoContainer>
+  )
+}
 
-export default InfoSection;
+export default InfoSection
