@@ -1,6 +1,6 @@
-import React, {useEffect, useState} from 'react';
-import Video from '../../videos/video4.mp4';
-import Member from "./Member";
+import React, {useState} from 'react'
+import Video from '../../videos/video4.mp4'
+import Member from "./Member"
 
 import {
     HeroContainer,
@@ -89,15 +89,15 @@ const members = [
 
 const HeroSection = () => {
     const [hover, setHover] = useState(false)
-    const [shuffle, setShuffle] = useState([])
+    //const [shuffle, setShuffle] = useState([])
 
     const onHover = () => {
         setHover(!hover);
     };
 
-    useEffect(() => {
-        setShuffle(members.sort(() => Math.random() - 0.5))
-    })
+    // useEffect(() => {
+    //     setShuffle(members.sort(() => Math.random() - 0.5))
+    // })
 
     return (
         <HeroContainer id='home'>
@@ -107,7 +107,7 @@ const HeroSection = () => {
             <HeroContent>
                 <TopLine>AstroMojis Comrades</TopLine>
                 <Members>
-                    {shuffle.map(item => <Member member={item}/>)}
+                    {members.map(item => <Member member={item}/>)}
                 </Members>
             </HeroContent>
         </HeroContainer>

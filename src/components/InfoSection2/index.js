@@ -27,45 +27,46 @@ import egypt from '../../images/logo-egypt.png';
 const partners = [
     {
         "logo": cnn,
-        "url": "https://www.cnn.com/",
+        "url": "https://arabic.cnn.com/style/article/2018/08/15/egypt-marwan-shahin",
         "alt": "CNN"
     },
     {
         "logo": nyt,
-        "url": "https://www.nytimes.com/",
+        "url": "",
         "alt": "NYT"
     },
     {
         "logo": tdm,
-        "url": "https://designmuseum.org",
+        "url": "https://designmuseum.org/exhibitions/hope-to-nope-graphics-and-politics-2008-18/qa-with-marwan-shahin#",
         "alt": "TDM"
     },
     {
         "logo": paddle,
-        "url": "https://www.paddle8.com/",
+        "url": "https://milled.com/paddle8/express-yourself-with-national-coalition-against-censorship-and-boys-9E8kzPeanJ04pdRZ",
         "alt": "Paddle"
     },
     {
         "logo": dazed,
-        "url": "https://www.dazeddigital.com",
+        "url": "https://www.dazeddigital.com/photography/article/23704/1/egypt-seizes-graffiti-book-for-inciting-revolution",
         "alt": "Dazed"
     },
     {
         "logo": virgin,
-        "url": "https://www.virginmedia.com/",
+        "url": "",
         "alt": "Virgin Media"
     },
     {
         "logo": obey,
-        "url": "https://obeyclothing.com",
+        "url": "https://graziamagazine.com/me/articles/increase-the-peace-inside-shepard-faireys-first-visit-to-the-middle-east/",
         "alt": "Obey"
     },
     {
         "logo": egypt,
-        "url": "https://www.egypttoday.com",
+        "url": "https://www.egypttoday.com/Article/4/3074/Artist-Of-The-Month-Marwan-Shahin",
         "alt": "Egypt"
     }
 ]
+
 
 const InfoSection = ({
                          lightBg,
