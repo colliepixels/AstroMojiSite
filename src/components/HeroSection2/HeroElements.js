@@ -1,8 +1,10 @@
 import styled from 'styled-components';
 import { MdKeyboardArrowRight, MdArrowForward } from 'react-icons/md';
+import stars from '../../images/stars.png'
+import avatar_collie from '../../images/avatar_collie.jpg'
 
 export const HeroContainer = styled.div`
-  background: #000;
+background: url(${stars}) repeat #000;
   display: flex;
   justify-content: center;
   align-items: center;

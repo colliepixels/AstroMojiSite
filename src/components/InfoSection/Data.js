@@ -28,10 +28,6 @@ export const homeObjTwo = {
     "Marwan is best known for artworks that reflect the social construct that surrounds our daily lives. His works have brought global attention to some of the biggest protests and government corruption. He moved to the states not long ago, but despite his late residence, he was no stranger to the art community. \n\nMarwan has hosted numerous art exhibits which attracted some of the biggest titles in the community. Collectors and artists alike hang Marwan's artworks in their homes, including Shepard Fairey, Takashi Murakami, Dave Navarro, Avril Lavigne, Kid Cudi... the list goes on.",
   buttonLabel: '.',
   imgStart: true,
- 
-  img7: require('../../images/svg-7.png'),
-  img8: require('../../images/svg-8.png'),
-  img9: require('../../images/svg-9.png'),
   alt: 'AstroMojis',
   dark: true,
   primary: true,
