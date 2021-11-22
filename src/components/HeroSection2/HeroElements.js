@@ -4,31 +4,24 @@ import stars from '../../images/stars.png'
 import avatar_collie from '../../images/avatar_collie.jpg'
 
 export const HeroContainer = styled.div`
-background: url(${stars}) repeat #000;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0 10px 100px;
   position: relative;
   z-index: 1;
+  background: #000;
 
   :before {
+      background: url(${stars}) repeat #000;
+    background-size: 50% auto;
+    opacity: 0.4;
     content: '';
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background: -webkit-gradient(
-        linear,
-        left top,
-        left bottom,
-        from(rgba(0, 0, 0, 0.2)),
-        to(rgba(0, 0, 0, 0.2))
-      ),
-      @media (max-width: 768px) {
-        height: 00px;
-      }
   }
   
   @media screen and (max-width: 768px) {
