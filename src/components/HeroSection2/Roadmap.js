@@ -104,47 +104,40 @@ const Item = ({subtitle, text, align, className}) =>
 const dataL = [
     {
         subtitle: '0%',
-        text: 'Announce drop data, price, & details',
+        text: 'Announce drop data, price, & details ',
         align: 'right'
     },
     {
-        subtitle: '40%',
-        text: 'Signed partnership with '+
-            'Action Figure Company',
+        subtitle: '25%',
+        text: 'Wim Hof Method Sessions($315 value) prized to 1000 winners ',
         align: 'right'
     },
     {
-        subtitle: '70%',
-        text: 'Mental Health & Wellness Community Input',
+        subtitle: '65%',
+        text: 'Muse Headbands($200-$400 value)prized to 1000 winners ',
         align: 'right'
     },
     {
-        subtitle: '90%',
-        text: 'Rent parcel in ' +
-            'Decentraland to open ' +
-            'the first Metaverse ' +
-            'Psychology Center',
+        subtitle: '95%',
+        text: 'AstroMojis Collector Action Figures ($500 value) prized to 111 winners ',
         align: 'right'
     }
 ]
 
 const dataR = [
     {
-        subtitle: '20%',
-        text: 'Merch collaboration with designer Brian Lichtenberg',
+        subtitle: '10%',
+        text: 'Decentraland wearable merch ($50 value) sent to first 1,111 minters',
         align: 'left'
     },
     {
         subtitle: '50%',
-        text: 'Announce Mental Health & Wellness Partners',
+        text: 'Limited IRL hoodies prized to 111 winners',
         align: 'left'
     },
     {
         subtitle: '80%',
-        text: 'Collaborate with ' +
-            'world famous sculptor ' +
-            'to make the first ' +
-            'AstroMojis sculptor',
+        text: 'Mental Health & Wellness Festival Lineup announcement',
         align: 'left'
     }
 ]
@@ -181,11 +174,8 @@ const Roadmap = () => {
                     )}
                 </Column>
             </Row>
-            <Subtitle className="big">100%</Subtitle>
-            <CenteredDescription>AstroMojis mural to be painted by Marwin Shahin, in Los Angeles California</CenteredDescription>
-
-            <Subtitle className="italic">Sold out</Subtitle>
-            <CenteredDescription>AstroMojis to giveaway 1,111 Mental health & wellness programs to community members</CenteredDescription>
+            <Subtitle className="italic" className="big">Sold out</Subtitle>
+            <CenteredDescription>Plans to create a permanent Mental Health & Wellness center in the metaverse. Giving access to people in need at very affordable rates (or free!).</CenteredDescription>
         </Container>
     )
 }
