@@ -8,6 +8,7 @@ import {
     Image,
     Title,
     Subtitle,
+    Subtitle2,
     Body,
 } from './HeroElements';
 
@@ -19,6 +20,7 @@ function HeroSection() {
 
     const onHover = () => setHover(!hover)
 
+    
     return (
         <HeroContainer id='home'>
             <HeroBg>
@@ -26,7 +28,8 @@ function HeroSection() {
             </HeroBg>
             <HeroContent>
                 <Image src={frame} />
-                <Title>11,111 NFT Collection</Title>
+                <Title>11,111 NFT Collection</Title><br></br>
+                <Subtitle2>AstroMojis Public Sale: 1.24.22.<br></br>Presale: 1.21.22</Subtitle2>
                 <Subtitle>Crafted by <a href="/#marwan-shahin">Marwan Shahin</a></Subtitle>
                 <Body>
                     Humankind has explored the furthest depths of outer space. Now,
